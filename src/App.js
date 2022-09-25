@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <script src="https://kit.fontawesome.com/2fbc753cfc.js" crossorigin="anonymous"></script>
     </div>
   );
 }
