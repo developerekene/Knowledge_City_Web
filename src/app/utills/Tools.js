@@ -5,8 +5,11 @@ export const COLORS = {
     baseColorFour: "#01010c",
     baseColorFive: "#1c2140",
     baseColorSix: "#1976D2",
+    baseColorSeven: "#626566"
 }
 
 export const SIZES = {
-    constSize: 20
+    constSize: 20,
+    constSize1: 24,
+    constSize2: 30,
 }
