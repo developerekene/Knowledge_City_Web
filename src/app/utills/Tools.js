@@ -5,7 +5,8 @@ export const COLORS = {
     baseColorFour: "#01010c",
     baseColorFive: "#1c2140",
     baseColorSix: "#1976D2",
-    baseColorSeven: "#626566"
+    baseColorSeven: "#626566",
+    baseColorEight: "#ADD8E6"
 }
 
 export const SIZES = {
