@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../components/NavBarMain'
+import NavBar from '../components/NavBarMain' 
 
 const Home = () => {
   return (
@@ -7,6 +7,7 @@ const Home = () => {
      <NavBar/>
    
     </>
+
     
   )
 }
