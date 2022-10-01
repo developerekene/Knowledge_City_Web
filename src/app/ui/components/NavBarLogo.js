@@ -5,22 +5,27 @@ import { IoChevronDownSharp } from "react-icons/io5";
 import Button from 'react-bootstrap/Button';
 import { COLORS } from '../../utills/Tools';
 import { IoEllipsisHorizontal } from "react-icons/io5"
+import {IoSearch} from "react-icons/io5"
 
 
 
 
 const NavBarLogo = () => {
   return (
-    <div className='NavBar' style={{ paddingLeft: 50, paddingRight: 30, backgroundColor: COLORS.baseColorTwo, marginTop: 10, marginBottom: 100 }}>
+    <div className='NavBar' style={{ paddingLeft: 50, paddingRight: 30, backgroundColor: COLORS.baseColorTwo, marginTop: 10, marginBottom: 80 }}>
       <div className='NavBarLogo' style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <Image src={require('../../images/Logopit_1612880733521.png')} style={{ width: 200, height: 100 }} />
         </div>
 
-        <div>
+        <div style={{ display: 'flex', alignItems: 'center' }}>
           <Form>
-            <Form.Control type="text" placeholder="What do you want to learn?" style={{ height: 40, width: 250 }} />
+            <Form.Control type="text" placeholder="What do you want to learn?" style={{ height: 45, width: 250 }} />
           </Form>
+          <Button variant="primary" type="link" style={{
+            height: 50, width: 40, color: COLORS.baseColorTwo, borderColor: COLORS.baseColorSix, backgroundColor: COLORS.baseColorSix, fontWeight: 'bold', marginRight: 10}}>
+            <IoSearch style={{height: 30, width: 25}}/>
+          </Button>
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingRight: 40 }}>

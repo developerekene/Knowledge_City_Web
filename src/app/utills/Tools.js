@@ -12,7 +12,7 @@ export const COLORS = {
     baseColorEleven: "#D2B4DE",
     baseColorTwelve: "#A9CCE3",
     baseColorThirteen: "#F5EEF8",
-    baseColorFourteen: "#8E44AD"
+    baseColorFourteen: "#8E44AD",
 }
 
 export const SIZES = {
