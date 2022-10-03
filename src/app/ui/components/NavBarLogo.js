@@ -4,9 +4,14 @@ import React from "react";
 import { Image } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import Dropdown from "react-bootstrap/Dropdown";
 
 // impoting from ionicon5
-import { IoChevronDownSharp, IoEllipsisHorizontal, IoSearch} from "react-icons/io5";
+import {
+  IoChevronDownSharp,
+  IoEllipsisHorizontal,
+  IoSearch,
+} from "react-icons/io5";
 
 // importing from utills
 import { COLORS } from "../../utills/Tools";
@@ -75,7 +80,7 @@ const NavBarLogo = () => {
         >
           <a href="/category">
             <Button
-              className="navLogoButton"
+              className="navLogoButton dropdown"
               variant="primary"
               type="link"
               // style={{
@@ -84,13 +89,32 @@ const NavBarLogo = () => {
               // }}
             >
               Category
+              <div class="dropdown-content">
+              <a href="#">Pre Schools</a>
+              <a href="#">Primary Schools</a>
+                  <a href="#">Secondary Schools</a>
+                  <a href="#">Universities</a>
+                  <a href="#">Companies</a>
+                  <a href="#">Ogranizations</a>
+                  {/* <a href="/about">About</a>
+                  <a href="/contact">Contact</a> */}
+                </div>
             </Button>
+            
           </a>
 
           <li style={{ alignItems: "center", marginRight: 10 }}>
             <a className="atagLogo" href="#">
-              <h4>
-                Pages <IoChevronDownSharp/>
+              <h4 className="dropdown">
+                Pages <IoChevronDownSharp />
+                <div class="dropdown-content">
+                  <a href="/getstarted">Get Started</a>
+                  <a href="/courses">Courses</a>
+                  <a href="/books">Books</a>
+                  <a href="/articles">Articles</a>
+                  <a href="/about">About</a>
+                  <a href="/contact">Contact</a>
+                </div>
               </h4>
             </a>
           </li>
@@ -99,8 +123,14 @@ const NavBarLogo = () => {
             style={{ display: "flex", alignItems: "center", marginRight: 10 }}
           >
             <a className="atagLogo" href="#">
-              <h4>
+              <h4 className="dropdown">
                 Accounts <IoChevronDownSharp />
+                <div class="dropdown-content">
+                  <a href="/getstarted">Membership</a>
+                  <a href="/courses">Profile</a>
+                  <a href="/books">Delete Profile</a>
+                  <a href="/articles">Settings</a>
+                </div>
               </h4>
             </a>
           </li>
@@ -112,17 +142,33 @@ const NavBarLogo = () => {
               marginRight: 20,
             }}
           >
-            <a className="atagLogo" href="#">
-              <h4>
+            <a className="atagLogo">
+              <h4 className="dropdown">
                 More <IoChevronDownSharp />
+                <div class="dropdown-content">
+                  <a href="#">Instructors</a>
+                  <a href="#">Prepare for Interviews</a>
+                  <a href="#">Online Assessments</a>
+                  <a href="#">Test / Exams</a>
+                </div>
               </h4>
             </a>
           </li>
 
           <li style={{ paddingRight: 60, color: COLORS.baseColorOne }}>
             <a className="atagLogo">
+              <h4 className="dropdown">
               <IoEllipsisHorizontal />
+              <div class="dropdown-content">
+                  <a href="#">Support</a>
+                  <a href="#">Documentation</a>
+                  <a href="#">Privacy Policy</a>
+                  {/* <a href="/articles">Test / Exams</a> */}
+                </div>
+              </h4>
+              
             </a>
+            
           </li>
 
           <li>

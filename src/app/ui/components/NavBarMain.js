@@ -1,15 +1,14 @@
-import React from 'react'
-import NavBarContact from './NavBarContact';
-import NavBarLogo from './NavBarLogo';
-
+import React from "react";
+import NavBarContact from "./NavBarContact";
+import NavBarLogo from "./NavBarLogo";
 
 const NavBar = () => {
-    return (
-     <>
-     <NavBarContact/>
-     <NavBarLogo/>
-     </>   
-    )
-}
+  return (
+    <>
+      <NavBarContact />
+      <NavBarLogo />
+    </>
+  );
+};
 
-export default NavBar
+export default NavBar;
