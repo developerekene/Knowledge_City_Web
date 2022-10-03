@@ -30,6 +30,22 @@
     border-radius: 10px;
 }
 
+.NavBarLogo{
+    list-style: none;
+
+}
+
+.atagLogo{
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.atagLogo:hover{
+    color: #1976D2;
+    transition: 2s;
+}
+
 .navLogoButton:hover{
     transition: 2s;
     cursor: pointer;
@@ -45,4 +61,25 @@
     justify-content: space-between;
     font-family: 'Times New Roman', Times, serif;
     height: 60px;
+}
+
+.atag{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.atag:hover {
+    color: #000000;
+    transition: 2s;
+}
+
+.navBarLogin{
+    list-style: none;
+    gap: 1rem;
+}
+/* Home page style */
+.home{
+    margin-bottom: 80px; 
+    font-family: 'Times New Roman', Times, serif
 }

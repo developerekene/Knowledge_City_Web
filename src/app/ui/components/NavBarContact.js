@@ -1,21 +1,24 @@
 import React from "react";
+
+// importing from ionicon5
 import { IoCallOutline, IoMailOutline } from "react-icons/io5";
+
+// importing from utills
 import { COLORS } from "../../utills/Tools";
 
 const NavBarContact = () => {
   return (
-    <div
+    <nav
       className="navBarContact"
       style={{
         backgroundColor: COLORS.baseColorSix,
-        
       }}
     >
-      <div
+      <ul
         className="navBarcontact"
         style={{ display: "flex", alignItems: "center" }}
       >
-        <div
+        <li
           style={{
             display: "flex",
             alignItems: "center",
@@ -23,49 +26,50 @@ const NavBarContact = () => {
             color: COLORS.baseColorTwo,
           }}
         >
-          <div style={{ marginRight: 10 }}>
-            <IoCallOutline />
-          </div>
-          <div>
-            <h4>07068815984</h4>
-          </div>
-        </div>
+          
+          <a className="atag" href="#">
+            <h4><IoCallOutline /> 07068815984</h4>
+          </a>
+        </li>
 
-        <div
+        <li
           style={{
             display: "flex",
             alignItems: "center",
             color: COLORS.baseColorTwo,
           }}
         >
-          <div style={{ marginRight: 10 }}>
-            <IoMailOutline />
-          </div>
-          <div>
-            <h4>hr@Knowledgecity.com</h4>
-          </div>
-        </div>
-      </div>
+          <a className="atag" href="#">
+            <h4><IoMailOutline /> hr@Knowledgecity.com</h4>
+          </a>
+        </li>
+      </ul>
 
-      <div
-        className="navBarLogin"
+      <ul className="navBarLogin"
         style={{
           display: "flex",
-          alignItems: "center",
-          color: COLORS.baseColorTwo,
+          alignItems: "center"
         }}
       >
-        <div style={{ marginRight: 5 }}>
-          <h4>Login</h4>
-        </div>
-        <div style={{ marginRight: 5 }}>
-          <h4>|</h4>
-        </div>
-        <div>
-          <h4>Join for free</h4>
-        </div>
-      </div>
-    </div>
+        <li>
+          <a className="atag" href="/login" >
+            <h4>Login</h4>
+          </a>
+        </li>
+
+        <li>
+          <p className="atag">
+            <h4>|</h4>
+          </p>
+        </li>
+
+        <li>
+          <a className="atag" href="/signup">
+            <h4>Join for free</h4>
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 };
 

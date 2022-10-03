@@ -1,4 +1,5 @@
 import React from 'react'
+// importing component
 import MainComponent from './app/ui/MainComponent'
 
 //style
