@@ -1,40 +1,59 @@
 import React from "react";
+
+// importing from bootstrap
 import Button from "react-bootstrap/Button";
-import { COLORS } from "../../utills/Tools";
-import { IoCheckmarkCircleSharp } from "react-icons/io5";
-import { IoTvOutline } from "react-icons/io5";
-import { IoPersonSharp } from "react-icons/io5";
-import { IoPeopleSharp } from "react-icons/io5";
-import { IoCheckmarkDoneCircle } from "react-icons/io5";
 import { Image } from "react-bootstrap";
-import { IoHeartOutline } from "react-icons/io5";
-import { IoStar } from "react-icons/io5";
-import { IoStarOutline } from "react-icons/io5";
-import { IoTimeOutline } from "react-icons/io5";
-import { IoApps } from "react-icons/io5";
-import { IoHeartSharp } from "react-icons/io5";
-import { IoStarHalfOutline } from "react-icons/io5";
+
+// importing from utills
+import { COLORS } from "../../utills/Tools";
 import { TEXT } from "../../utills/Data";
-import { IoBookmarkOutline } from "react-icons/io5";
-import { IoCart } from "react-icons/io5";
+
+// ionicons5
+import {
+  IoBookmarkOutline,
+  IoCart,
+  IoCheckmarkCircleSharp,
+  IoTvOutline,
+  IoPersonSharp,
+  IoPeopleSharp,
+  IoCheckmarkDoneCircle,
+  IoHeartOutline,
+  IoStar,
+  IoStarOutline,
+  IoTimeOutline,
+  IoApps,
+  IoHeartSharp,
+  IoStarHalfOutline,
+} from "react-icons/io5";
 
 const Home = () => {
   return (
     <>
-      <div className="home" style={{ marginBottom: 80, fontFamily: 'Times New Roman'}}>
+      <div className="home">
         <div className="homeFirstDiv">
-          <div  style={{ marginRight: 350, width: 1000}}>
+          <div style={{ marginRight: 350, width: 1000 }}>
             <h1
-              style={{ fontSize: 60, fontStyle: "italic", fontWeight: "bold", color: COLORS.baseColorSix }}
+              style={{
+                fontSize: 60,
+                fontStyle: "italic",
+                fontWeight: "bold",
+                color: COLORS.baseColorSix,
+              }}
             >
               {TEXT.homeHeaderText}
             </h1>
-            <p style={{ fontSize: 20, color: '#ffffff' }}>
+            <p style={{ fontSize: 20, color: "#ffffff" }}>
               Online learning and market place with 5K+ courses and 10M
               students. Taught by experts to help you acquire new skills.
             </p>
 
-            <div style={{ display: "flex", alignItems: "center", color: COLORS.baseColorSix }}>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                color: COLORS.baseColorSix,
+              }}
+            >
               <div
                 style={{
                   display: "flex",
@@ -112,15 +131,13 @@ const Home = () => {
                 height: 30,
                 borderRadius: 5,
                 backgroundColor: COLORS.baseColorNine,
-                padding: 20
+                padding: 20,
               }}
             >
               <div style={{ paddingRight: 20 }}>
                 <IoTvOutline style={{ height: 100, width: 40 }} />
               </div>
-              <div
-                style={{ fontWeight: "600" }}
-              >
+              <div style={{ fontWeight: "600" }}>
                 <p>10K</p>
                 <p style={{ fontSize: 12 }}>Online Courses</p>
               </div>
@@ -665,6 +682,7 @@ const Home = () => {
               marginRight: 55,
               display: "flex",
               width: 1250,
+              marginBottom: 100,
             }}
           >
             <div style={{ marginRight: 70, marginLeft: 15, width: 700 }}>
@@ -1027,6 +1045,68 @@ const Home = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div
+            className="lastOne"
+            style={{
+              marginLeft: 80,
+              marginRight: 55,
+              display: "flex",
+              width: 1250,
+            }}
+          >
+            <div>
+              <div
+                style={{
+                  backgroundColor: COLORS.baseColorSix,
+                  width: 450,
+                  height: 250,
+                  paddingTop: 15,
+                  paddingBottom: 5,
+                  paddingLeft: 15,
+                  paddingRight: 15,
+                }}
+              >
+                <Image
+                  src={require("../../images/jpeg/Product Design.jpg")}
+                  style={{
+                    width: 70,
+                    height: 70,
+                    borderRadius: 1000,
+                    marginLeft: 165,
+                  }}
+                />
+                <p style={{ marginBottom: 15, fontSize: 18 }}>
+                  "Moonlight newspaper up its enjoyment agreeable depending.
+                  Timed voice share led him to widen noisy young. At weddings
+                  believed laughing"
+                </p>
+                <div style={{ marginLeft: 155, marginBottom: 15 }}>
+                  <IoStar />
+                  <IoStar />
+                  <IoStar />
+                  <IoStar />
+                  <IoStarHalfOutline />
+                </div>
+                <h4 style={{ marginLeft: 155 }}>Carolyn Ortiz</h4>
+              </div>
+              <div style={{ width: 200, backgroundColor: COLORS.baseColorSix }}>
+                <h4>4.5/5.0</h4>
+                <div style={{ marginLeft: 155, marginBottom: 15 }}>
+                  <IoStar />
+                  <IoStar />
+                  <IoStar />
+                  <IoStar />
+                  <IoStarHalfOutline />
+                </div>
+                <p>Based on 3265 ratings</p>
+              </div>
+            </div>
+            <div>
+              <div></div>
+              <div></div>
+            </div>
+            <div></div>
           </div>
         </div>
       </div>

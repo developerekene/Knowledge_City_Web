@@ -1,15 +1,19 @@
 import React from "react";
+
+// importing from bootstrap
 import { Image } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
-import { IoChevronDownSharp } from "react-icons/io5";
 import Button from "react-bootstrap/Button";
+
+// impoting from ionicon5
+import { IoChevronDownSharp, IoEllipsisHorizontal, IoSearch} from "react-icons/io5";
+
+// importing from utills
 import { COLORS } from "../../utills/Tools";
-import { IoEllipsisHorizontal } from "react-icons/io5";
-import { IoSearch } from "react-icons/io5";
 
 const NavBarLogo = () => {
   return (
-    <div
+    <nav
       className="NavBar"
       style={{
         paddingLeft: 50,
@@ -19,7 +23,7 @@ const NavBarLogo = () => {
         fontFamily: "Times New Roman",
       }}
     >
-      <div
+      <ul
         className="NavBarLogo"
         style={{
           display: "flex",
@@ -27,14 +31,16 @@ const NavBarLogo = () => {
           justifyContent: "space-between",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <Image
-            src={require("../../images/png/Logopit_1612880733521.png")}
-            style={{ width: 200, height: 100 }}
-          />
-        </div>
+        <li style={{ display: "flex", alignItems: "center" }}>
+          <a href="/">
+            <Image
+              src={require("../../images/png/Logopit_1612880733521.png")}
+              style={{ width: 200, height: 100 }}
+            />
+          </a>
+        </li>
 
-        <div style={{ display: "flex", alignItems: "center" }}>
+        <li style={{ display: "flex", alignItems: "center" }}>
           <Form>
             <Form.Control
               type="text"
@@ -57,9 +63,9 @@ const NavBarLogo = () => {
           >
             <IoSearch style={{ height: 30, width: 25 }} />
           </Button>
-        </div>
+        </li>
 
-        <div
+        <li
           style={{
             display: "flex",
             alignItems: "center",
@@ -67,62 +73,66 @@ const NavBarLogo = () => {
             paddingRight: 40,
           }}
         >
-          <Button className="navLogoButton"
-            variant="primary"
-            type="link"
-            // style={{
-            //   color: COLORS.baseColorTwo,
-            //   backgroundColor: COLORS.baseColorSix,
-            // }}
-          >
-            Category
-          </Button>
+          <a href="/category">
+            <Button
+              className="navLogoButton"
+              variant="primary"
+              type="link"
+              // style={{
+              //   color: COLORS.baseColorTwo,
+              //   backgroundColor: COLORS.baseColorSix,
+              // }}
+            >
+              Category
+            </Button>
+          </a>
 
-          <div
+          <li style={{ alignItems: "center", marginRight: 10 }}>
+            <a className="atagLogo" href="#">
+              <h4>
+                Pages <IoChevronDownSharp/>
+              </h4>
+            </a>
+          </li>
+
+          <li
             style={{ display: "flex", alignItems: "center", marginRight: 10 }}
           >
-            <div style={{  }}>
-              <h4>Pages</h4>
-            </div>
-            <div>
-              <IoChevronDownSharp />
-            </div>
-          </div>
+            <a className="atagLogo" href="#">
+              <h4>
+                Accounts <IoChevronDownSharp />
+              </h4>
+            </a>
+          </li>
 
-          <div
-            style={{ display: "flex", alignItems: "center", marginRight: 10 }}
-          >
-            <div style={{  }}>
-              <h4>Accounts</h4>
-            </div>
-            <div>
-              <IoChevronDownSharp />
-            </div>
-          </div>
-
-          <div
+          <li
             style={{
               display: "flex",
               alignItems: "center",
               marginRight: 20,
             }}
           >
-            <div>
-              <h4>More</h4>
-            </div>
-            <div>
-              <IoChevronDownSharp />
-            </div>
-          </div>
+            <a className="atagLogo" href="#">
+              <h4>
+                More <IoChevronDownSharp />
+              </h4>
+            </a>
+          </li>
 
-          <div style={{ paddingRight: 60, color: COLORS.baseColorOne }}>
-            <IoEllipsisHorizontal />
-          </div>
+          <li style={{ paddingRight: 60, color: COLORS.baseColorOne }}>
+            <a className="atagLogo">
+              <IoEllipsisHorizontal />
+            </a>
+          </li>
 
-          <h6 style={{ color: COLORS.baseColorOne }}>V 2.0</h6>
-        </div>
-      </div>
-    </div>
+          <li>
+            <a className="atagLogo">
+              <h6 style={{ color: COLORS.baseColorOne }}>V 2.0</h6>
+            </a>
+          </li>
+        </li>
+      </ul>
+    </nav>
   );
 };
 
