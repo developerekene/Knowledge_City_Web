@@ -630,7 +630,7 @@ const Home = () => {
               paddingLeft: 70,
               paddingRight: 70,
               borderRadius: 5,
-              marginBottom: 70,
+              marginBottom: 10,
             }}
           >
             <div style={{ width: 700, marginRight: 200 }}>
@@ -686,7 +686,7 @@ const Home = () => {
             }}
           >
             <div style={{ marginRight: 70, marginLeft: 15, width: 700 }}>
-              {" "}
+              
               <Image
                 src={require("../../images/jpeg/about-img.jpg")}
                 style={{ width: 400, height: 250 }}
@@ -1045,30 +1045,32 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div
+           </div>
+           <div
             className="lastOne"
             style={{
               marginLeft: 80,
-              marginRight: 55,
+              marginRight: 20,
               display: "flex",
-              width: 1250,
+              width: 1400,
             }}
           >
             <div>
               <div
                 style={{
-                  backgroundColor: COLORS.baseColorSix,
                   width: 450,
                   height: 250,
-                  paddingTop: 15,
+                  paddingTop: 20,
                   paddingBottom: 5,
                   paddingLeft: 15,
                   paddingRight: 15,
+                  marginBottom: 40,
+                  borderRadius: 5,
+                  marginTop: 50,
                 }}
               >
                 <Image
-                  src={require("../../images/jpeg/Product Design.jpg")}
+                  src={require("../../images/jpeg/istockphoto2.jpeg")}
                   style={{
                     width: 70,
                     height: 70,
@@ -1088,25 +1090,180 @@ const Home = () => {
                   <IoStar />
                   <IoStarHalfOutline />
                 </div>
-                <h4 style={{ marginLeft: 155 }}>Carolyn Ortiz</h4>
+                <h4 style={{ marginLeft: 150 }}>Carolyn Ortiz</h4>
               </div>
-              <div style={{ width: 200, backgroundColor: COLORS.baseColorSix }}>
-                <h4>4.5/5.0</h4>
-                <div style={{ marginLeft: 155, marginBottom: 15 }}>
+              <div
+                style={{
+                  width: 210,
+                  height: 110,
+                  paddingTop: 15,
+                  backgroundColor: COLORS.baseColorSix,
+                  borderRadius: 10,
+                  marginLeft: 275,
+                }}
+              >
+                <h4 style={{ marginBottom: 10, marginLeft: 85, color: COLORS.baseColorTwo }}>4.5/5.0</h4>
+                <div style={{ marginLeft: 65, marginBottom: 10 }}>
                   <IoStar />
                   <IoStar />
                   <IoStar />
                   <IoStar />
                   <IoStarHalfOutline />
                 </div>
-                <p>Based on 3265 ratings</p>
+                <p style={{ marginLeft: 40, color: COLORS.baseColorTwo}}>Based on 3265 ratings</p>
               </div>
             </div>
-            <div>
-              <div></div>
-              <div></div>
+
+            <div style={{ marginLeft: 20 }}>
+              <div
+                style={{
+                  width: 220,
+                  height: 250,
+                  paddingTop: 15,
+                  borderRadius: 5,
+                  paddingLeft: 20,
+                }}
+              >
+                <h3 style={{ marginBottom: 20 }}>100+ Verified Mentors</h3>
+                <div>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      marginBottom: 15,
+                    }}
+                  >
+                    <Image
+                      src={require("../../images/jpeg/istockphoto1.jpeg")}
+                      style={{
+                        width: 60,
+                        height: 50,
+                      }}
+                    />
+                    <div style={{ marginLeft: 5 }}>
+                      <h4>Lori Stephens</h4>
+                      <p>Tutor of Physics</p>
+                    </div>
+                  </div>
+
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      marginBottom: 15,
+                    }}
+                  >
+                    <Image
+                      src={require("../../images/jpeg/istockphoto4.jpeg")}
+                      style={{
+                        width: 60,
+                        height: 50,
+                      }}
+                    />
+                    <div style={{ marginLeft: 5 }}>
+                      <h4>Billy Vasquez</h4>
+                      <p>Tutor of Chemistry</p>
+                    </div>
+                  </div>
+
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      marginBottom: 15,
+                    }}
+                  >
+                    <Image
+                      src={require("../../images/jpeg/istockphoto5.jpeg")}
+                      style={{
+                        width: 60,
+                        height: 50,
+                      }}
+                    />
+                    <div style={{ marginLeft: 5, width: 700 }}>
+                      <h4>Larry Lawson</h4>
+                      <p>Tutor of Technology</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={{
+                  width: 280,
+                  height: 270,
+                  paddingTop: 20,
+                  paddingBottom: 5,
+                  paddingLeft: 30,
+                  paddingRight: 25,
+                  marginBottom: 40,
+                  borderRadius: 5,
+                  marginTop: 35,
+                }}
+              >
+                <Image
+                  src={require("../../images/jpeg/istockphoto6.jpeg")}
+                  style={{
+                    width: 70,
+                    height: 70,
+                    borderRadius: 1000,
+                    marginLeft: 100,
+                    marginBottom: 10,
+                  }}
+                />
+                <p style={{ marginBottom: 20, fontSize: 18 }}>
+                  "At wedding believed laughing although the Moonlight newspaper
+                  up its enjoyment agreeable depending"
+                </p>
+                <div style={{ marginLeft: 90, marginBottom: 15 }}>
+                  <IoStar />
+                  <IoStar />
+                  <IoStar />
+                  <IoStar />
+                  <IoStarHalfOutline />
+                </div>
+                <h4 style={{ marginLeft: 80 }}>Dennis Barrett</h4>
+              </div>
             </div>
-            <div></div>
+
+            <div
+              style={{
+                marginLeft: 40,
+                height: 255,
+                borderRadius: 5,
+                width: 500,
+                marginTop: 160,
+                paddingTop: 20,
+                
+              }}
+            >
+              <h1 style={{ marginBottom: 20 }}>
+                Some valuable feedback from our Students
+              </h1>
+              <p style={{ fontSize: 18 }}>
+                Supporting so be resolving breakfast an or perfectly. It drew a
+                hill from me. Valley by oh twenty direct me so. Departure
+                defective arranging rapturous did believe him all had supported.
+                Family months lasted simple set nature vulgar him. Picture for
+                attempt joy excited ten carried manners talking how.
+              </p>
+              <Button
+                variant="primary"
+                type="link"
+                style={{
+                  height: 35,
+                  width: 135,
+                  borderColor: COLORS.baseColorSix,
+                  color: COLORS.baseColorTwo,
+                  backgroundColor: COLORS.baseColorSix,
+                  fontSize: 14,
+                  fontWeight: "bold",
+                  borderRadius: 5,
+                  marginTop: 20,
+                }}
+              >
+                View Reviews
+              </Button>
+            </div>
           </div>
         </div>
       </div>
