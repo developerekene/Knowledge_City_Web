@@ -3,7 +3,7 @@ import { COLORS } from '../../utills/Tools';
 
 const FooterCopyright = () => {
   return (
-    <div className='footer' style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: 20}}>
+    <div className='footer' style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: 20, height: 40}}>
       <div style={{ marginLeft: 20, fontWeight: 'bold'}}>
        © 2021 Knowledge City. All Rights Reserved.
       </div>

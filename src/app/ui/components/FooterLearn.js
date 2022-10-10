@@ -6,8 +6,8 @@ import { SIZES } from '../../utills/Tools';
 
 const FooterLearn = () => {
     return (
-        <div className='footer' style={{backgroundColor: COLORS.baseColorOne, paddingTop: 10, paddingBottom: 30, height: 300}}>
-            <div style={{paddingLeft: 60}}>
+        <div className='footer' style={{backgroundColor: COLORS.baseColorOne, paddingTop: 10, paddingBottom: 5, height: 300}}>
+            <div style={{paddingLeft: 60, marginTop: 15, marginBottom: 15}}>
                 <h3 style={{color: COLORS.baseColorTwo}}>Learn anything, from anywhere, at anytime.</h3>
             </div>
 
