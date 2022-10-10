@@ -233,3 +233,102 @@
 
 
 /* Footer styles */
+
+.footer{
+    background-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 5px; 
+    height: 300px;
+}
+
+.learnDiv{
+    padding-left: 60px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.learnParagraph{
+    color: #ffffff;
+}
+
+.columnsContainer{
+    display: flex;
+    align-items: 'center';
+     justify-content: space-between; 
+     padding-left: 95px; 
+     padding-right: 70px;
+}
+
+.firstColumn{
+    align-items: centre; 
+    width: 130px
+}
+.footerHeadings{
+    color: #1976D2;
+    margin-bottom: 15px;
+}
+
+.secondColumn{
+    align-items: centre; 
+    width: 180px
+}
+
+.thirdColumn{
+    align-items: centre; 
+    width: 150px
+}
+
+.columnParagraph{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.lastParagraph{
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.formControl{
+    height: 40px; 
+    width: 470px;
+}
+
+.subscribeBtn{
+    height: 50px;
+    width: 250px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #1976D2;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* footer copyright */
+
+.footerCopy{
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+      padding-top: 10px;
+      height: 40px;
+      padding-bottom: 20px;
+}
+
+.leftDiv{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.rightDiv{
+    display: flex; 
+    align-items: centre;
+    color: #1976D2; 
+    font-weight: bold; 
+    margin-right: 20px;
+}
+
+.developers{
+    padding-right: 20px
+}
