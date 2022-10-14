@@ -332,3 +332,176 @@
 .developers{
     padding-right: 20px
 }
+
+/* BOOKS PAGE style */
+
+.booksFirstDiv{
+    background-image: url(../images/jpeg/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 400px;
+    align-items: center;
+    padding-top: 130px;
+    
+}
+
+.getLatestDiv{
+    color: #ffffff;
+    font-size: 20px;
+    width: 750px;
+    margin-left: 50px;
+}
+
+.registerBtn{
+    height: 50px;
+    width: 230px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #1976D2;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.recentBooksDiv{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.recentBooks{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.recentParagraph{
+    font-size: 16px;
+}
+
+.imagesDiv{
+    display: flex;
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.newBooksDiv{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+
+.newBooks{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.newParagraph{
+    font-size: 16px;
+}
+
+.readMoreBtn{
+    height: 50px;
+    width: 140px;
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+.businessBookLeft{
+   height: 280px;
+   margin-left:  40px;
+   margin-top: 100px;
+   margin-bottom: 80px
+}
+
+.businessBookRight{
+    height: 280px;
+    margin-right: 40px;
+    margin-top: 100px;
+    margin-bottom: 80px; 
+}
+
+.businessBookMid{
+    height: 280px;
+    margin-left: 20px;
+    margin-top: 110px;
+    margin-bottom: 80px
+}
+
+.makeAwesomeLeft{
+    width: 200px;
+    font-size: 20px;
+    margin-left: 150px
+}
+
+
+.makeAwesomeMid{
+    width: 200px;
+    font-size: 20px;
+    margin-left: 150px
+}
+
+
+.makeAwesomeRight{
+    width: 200px;
+    font-size: 20px;
+    margin-left: 150px
+}
+
+
+.babyStepsMid{
+    margin-right: 15px;
+}
+
+.imagesDivThree{
+    display: flex; 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.imagesDivFour{
+    display: flex;
+    margin-left: 60px;
+}
+
+.newBooksDetails{
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.newbooksDate{
+    width: 450px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.newbooksFirstParagraph{
+    width: 350px;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.newbooksSecondParagraph{
+    width: 400px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.newBooksDetailsTwo{
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 70px;
+}
