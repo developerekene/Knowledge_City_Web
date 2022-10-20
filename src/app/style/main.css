@@ -185,7 +185,7 @@
 
 .getSartedContainer{
     width: 350px; 
-    margin-right: 35px;
+    margin-right: 60px;
 }
 
 .h2{
@@ -363,6 +363,7 @@
     border-color: #1976D2;
     margin-top: 20px;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .recentBooksDiv{
@@ -504,4 +505,274 @@
     display: flex;
     margin-left: 60px;
     margin-bottom: 70px;
+}
+
+
+           /* ARTCICLES PAGE STYLES */
+
+.articlesPage{
+    margin-bottom: 30px;
+}
+
+.articlesFirstDiv{
+    background-image: url(../images/jpeg/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 400px;
+    align-items: center;
+    padding-top: 130px;
+}
+
+.recentArticlesHeading{
+    margin-left: 100px;
+    color: #1976D2;
+    margin-bottom: 40px;
+}
+
+.recentArticlesDiv{
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.articlesLeftDiv{
+    width: 70%;
+    margin-top: 10px;
+}
+
+.articlesRightDiv{
+    margin-left: 35px;
+}
+
+.firstAdminImage{
+    width: 830px;
+    height: 435px;
+}
+
+.adminBtn{
+    display: flex;
+    align-items: center;
+    width: 410px;
+    height: 55px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #1976D2;
+    font-size: 17px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 250px;
+}
+
+
+.personAdmin{
+    align-items: center;
+    margin-right: 15px;
+}
+
+.calenderAdmin{
+    align-items: center;
+    margin-right: 15px;
+}
+
+.whyShould{
+    font-size: 26px;
+    color: #1976D2;
+}
+
+.paragraph{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.readMoreBtnarticles{
+    height: 50px;
+    width: 225px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #1976D2;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+
+.categoryHeading{
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.categoryBtnDiv{
+    margin-left: 40px;
+}
+
+.categoryBtns{
+    height: 40px;
+    width: 270px;
+    border-radius: 25px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #1976D2;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.categoryAnchor{
+    color: #ffffff;
+}
+
+.popularArticleHeading{
+    font-size: 35px;
+    margin-top: 95px;
+    margin-bottom: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.popularArticleDiv{
+    margin-bottom: 70px;
+}
+
+.popularArticleImage{
+    width: 320px;
+    height: 150px;
+    margin-left: 35px;
+}
+
+.popularArticleBtn{
+    height: 40px;
+    width: 280px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #1976D2;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.popularArticleParagraph{
+    font-size: 18px;
+    margin-left: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #1976D2;
+}
+
+.popularTagHeading{
+    font-size: 35px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.popularTagDiv{
+    margin-left: 15px;
+}
+
+.firstButtonrow{
+    margin-bottom: 10px;
+}
+
+.softwareTagBtn{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #1976D2;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.technologyTagBtn{
+    width: 130px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #1976D2;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.travelTagBtn{
+    width: 85px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #1976D2;
+    font-size: 16px;
+}
+
+.secondButtonrow{
+    margin-bottom: 10px;
+}
+
+.illustrationTagBtn{
+    width: 125px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #1976D2;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.designTagBtn{
+    width: 85px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #1976D2;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.lifestyleTagBtn{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #1976D2;
+    font-size: 16px;
+}
+
+.loveTagBtn{
+    width: 70px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #1976D2;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.projectTagBtn{
+    width: 85px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #1976D2;
+    font-size: 16px;
 }

@@ -526,9 +526,11 @@ const Courses = () => {
             Join over 10,000 students online making use of our platform to
             increase their knowledge in different variety of subjects.
           </p>
+          <a href="#">
           <h5 className="h5">
             Learn more
           </h5>
+          </a>
         </div>
 
         <div className="getSartedContainer">
@@ -537,9 +539,11 @@ const Courses = () => {
             Begin your journey to becoming a professional in your field.
             Register a course today.
           </p>
+          <a href="#">
           <h5 className="h5">
             Pick a course
           </h5>
+          </a>
         </div>
 
         <div className="getSartedContainer">
@@ -548,9 +552,11 @@ const Courses = () => {
             With over 280+ certification to choose from, knowledge city gives
             you the platform to achieve your dreams.
           </p>
+          <a href="#">
           <h5 className="h5">
             Get Certified today
           </h5>
+          </a>
         </div>
       </div>
 
@@ -594,7 +600,7 @@ const Courses = () => {
         {getArtsAndCrafts()}
       </div>
 
-      <h2 
+      <h2 className="coursesHeading"
         
       >
         BUSINESS

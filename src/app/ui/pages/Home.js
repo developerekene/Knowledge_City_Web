@@ -97,6 +97,7 @@ const Home = () => {
                 marginTop: 20,
                 fontSize: 14,
                 borderRadius: 5,
+                cursor: "pointer"
               }}
             >
               GET STARTED
