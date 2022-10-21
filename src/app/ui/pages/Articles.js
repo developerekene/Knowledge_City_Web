@@ -1,5 +1,9 @@
 import React from "react";
+
+// importinf from bootstrap
 import { Button, Image } from "react-bootstrap";
+
+// Ionicons
 import {
   IoArrowForwardOutline,
   IoPerson,
