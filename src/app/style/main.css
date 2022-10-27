@@ -1148,21 +1148,9 @@
     margin-bottom: 100px;
 }
 
-.contactUsFirstDiv{
-    background-image: url(../images/jpeg/banner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-left: 60px;
-    padding-right: 60px;
-    height: 400px;
-    align-items: center;
-    padding-top: 130px;
-}
-
 .contactUsHeading{
-    margin-top: 100px;
-    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -1172,18 +1160,21 @@
 }
 
 .contactsDiv{
-    margin-bottom: 40px;
-    background-color: #1976D2;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    display: flex;
 }
 
 .customerSupport{
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 20px;
+    padding-top: 40px;
     width: 350px;
-    height: 200px;
+    height: 190px;
     margin-top: 40px;
-    background-color: crimson;
+    background-color: #1976D2;
+    border-radius: 5px;
+    margin-right: 60px;
 }
 
 .customerSupportHeading{
@@ -1204,12 +1195,191 @@
     align-items: center;
     color: #ffffff;
     margin-bottom: 10px;
-    margin-left: 110px;
+    margin-left: 95px;
 }
 
 .customerSupportEmailAddress{
     display: flex;
     align-items: center;
     color: #ffffff;
+    margin-left: 85px;
+}
+
+.customerSupportParagraph{
+    margin-left: 10px;
+}
+
+
+.contactAddress{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    width: 350px;
+    height: 190px;
+    margin-top: 40px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-right: 60px;
+}
+
+.contactAddressHeading{
+    color: #000000;
+    margin-bottom: 15px;
     margin-left: 90px;
+}
+
+.contactAddressLocation{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.contactAddressPhoneNumber{
+    display: flex;
+    align-items: center;
+    color: #1976D2;
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+
+.contactAddressEmailAddress{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 65px;
+}
+
+.contactAddressParagraph{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.mainOffice{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    width: 350px;
+    height: 190px;
+    margin-top: 40px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.mainOfficeHeading{
+    color: #000000;
+    margin-bottom: 15px;
+    margin-left: 90px;
+}
+
+.mainOfficeLocation{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+
+.mainOfficePhoneNumber{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-left: 105px;
+}
+
+.mainOfficeEmailAddress{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 85px;
+}
+
+.mainOfficeParagraph{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contactsLastDiv{
+    display: flex;
+    margin-top: 70px;
+}
+
+.contactsLastDivLeft{
+    margin-right: 130px;
+    margin-top: 70px;
+}
+
+.letsTalkImage{
+    width: 400px;
+}
+
+.followAndMediaHandles{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.facebookLogo{
+    width: 35px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.instagramLogo{
+    width: 40px;
+    margin-right: 15px;
+}
+
+.TwitterLogo{
+    width: 40px;
+    margin-right: 15px;
+}
+
+.linkedinLogo{
+    width: 40px;
+    margin-right: 15px;
+}
+
+.pinterestLogo{
+    width: 40px;
+}
+
+.letsTalkFormControl{
+    height: 40px;
+    width: 730px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #F1EDF2;
+    border: none;
+}
+
+.letsTalkHeading{
+    margin-bottom: 15px;
+}
+
+.letsTalkParagraph{
+    margin-bottom: 15px;
+}
+
+.letsTalkMessageFormControl{
+    height: 55px;
+    width: 730px;
+    margin-top: 10px;
+    background-color: #F1EDF2;
+    border: none;
+}
+
+.sendMessage{
+    width: 734px;
+    height: 45px;
+    color: #ffffff;
+    background-color: #1976D2;
+    border-color:#1976D2;
+    border-radius: 2px;
+    margin-top: 15px;
+    font-size: 18px;
 }
