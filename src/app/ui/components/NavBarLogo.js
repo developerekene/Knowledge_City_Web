@@ -83,24 +83,15 @@ const NavBarLogo = () => {
               className="navLogoButton dropdown"
               variant="primary"
               type="link"
-              // style={{
-              //   color: COLORS.baseColorTwo,
-              //   backgroundColor: COLORS.baseColorSix,
-              // }}
             >
               Category
               <div class="dropdown-content">
-              <a href="#">Pre Schools</a>
-              <a href="#">Primary Schools</a>
-                  <a href="#">Secondary Schools</a>
-                  <a href="#">Universities</a>
-                  <a href="#">Companies</a>
-                  <a href="#">Ogranizations</a>
-                  {/* <a href="/about">About</a>
-                  <a href="/contact">Contact</a> */}
-                </div>
+                <a href="/schools">Schools</a>
+                <a href="/uni">Universities</a>
+                <a href="/companies">Companies</a>
+                <a href="/org">Ogranizations</a>
+              </div>
             </Button>
-            
           </a>
 
           <li style={{ alignItems: "center", marginRight: 10 }}>
@@ -126,10 +117,10 @@ const NavBarLogo = () => {
               <h4 className="dropdown">
                 Accounts <IoChevronDownSharp />
                 <div class="dropdown-content">
-                  <a href="/getstarted">Membership</a>
-                  <a href="/courses">Profile</a>
-                  <a href="/books">Delete Profile</a>
-                  <a href="/articles">Settings</a>
+                  <a href="/membership">Membership</a>
+                  <a href="/profile">Profile</a>
+                  <a href="/settings">Delete Profile</a>
+                  <a href="/settings">Settings</a>
                 </div>
               </h4>
             </a>
@@ -146,10 +137,9 @@ const NavBarLogo = () => {
               <h4 className="dropdown">
                 More <IoChevronDownSharp />
                 <div class="dropdown-content">
-                  <a href="#">Instructors</a>
-                  <a href="#">Prepare for Interviews</a>
-                  <a href="#">Online Assessments</a>
-                  <a href="#">Test / Exams</a>
+                  <a href="/instruct">Instructors</a>
+                  <a href="/interviews">Prepare for Interviews</a>
+                  <a href="/onlinetest">Online Assessments</a>
                 </div>
               </h4>
             </a>
@@ -158,17 +148,14 @@ const NavBarLogo = () => {
           <li style={{ paddingRight: 60, color: COLORS.baseColorOne }}>
             <a className="atagLogo">
               <h4 className="dropdown">
-              <IoEllipsisHorizontal />
-              <div class="dropdown-content">
-                  <a href="#">Support</a>
-                  <a href="#">Documentation</a>
-                  <a href="#">Privacy Policy</a>
-                  {/* <a href="/articles">Test / Exams</a> */}
+                <IoEllipsisHorizontal />
+                <div class="dropdown-content">
+                  <a href="/support">Support</a>
+                  <a href="/docs">Documentation</a>
+                  <a href="/privacy">Privacy Policy</a>
                 </div>
               </h4>
-              
             </a>
-            
           </li>
 
           <li>
