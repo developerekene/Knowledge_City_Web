@@ -28,7 +28,6 @@ import Organisations from './pages/Organisations'
 // importing components
 import NavBar from './components/NavBarMain'
 import Footer from './components/FooterMain'
-import Universities from './pages/Universities'
 
 
 const MainComponent = () => {

@@ -32,18 +32,19 @@ const Home = () => {
     <>
       <div className="home">
         <div className="homeFirstDiv">
-          <div style={{ marginRight: 350, width: 1000 }}>
+          <div style={{ marginRight: 350, width: 1000, backgroundColor: '#66000000' }}>
             <h1
               style={{
                 fontSize: 60,
                 fontStyle: "italic",
                 fontWeight: "bold",
                 color: COLORS.baseColorSix,
+                marginBottom: 20
               }}
             >
               {TEXT.homeHeaderText}
             </h1>
-            <p style={{ fontSize: 20, color: "#ffffff" }}>
+            <p style={{ fontSize: 20, color: "#ffffff", marginBottom: 20 }}>
               Online learning and market place with 5K+ courses and 10M
               students. Taught by experts to help you acquire new skills.
             </p>
@@ -95,10 +96,10 @@ const Home = () => {
                 backgroundColor: COLORS.baseColorSix,
                 color: COLORS.baseColorTwo,
                 borderColor: COLORS.baseColorSix,
-                marginTop: 20,
+                marginTop: 50,
                 fontSize: 14,
                 borderRadius: 5,
-                cursor: "pointer"
+                cursor: "pointer",
               }}
             >
               GET STARTED
