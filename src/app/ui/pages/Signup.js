@@ -2,7 +2,7 @@ import React from 'react'
 // import Form from 'react-bootstrap/Form'
 // import FormLabel from 'react-bootstrap/FormLabel'
 
-const Signup = () => {
+const SignUp = () => {
   return (
     <center>
     <div className="signup">
@@ -61,4 +61,4 @@ const Signup = () => {
     )
 }
 
-export default Signup
+export default SignUp

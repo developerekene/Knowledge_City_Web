@@ -11,15 +11,31 @@ import ForgotPassword from './pages/ForgotPassword'
 import GetStarted from './pages/GetStarted'
 import Login from './pages/Login'
 import SignUp from './pages/SignUp'
+import Companies from './pages/Companies'
+import Documentation from './pages/Documentation'
+import Instructors from './pages/Instructors'
+import InterViews from './pages/InterViews'
+import Membership from  './pages/Membership'
+import OnlineTest from  './pages/OnlineTest'
+import PrivacyPolicy from  './pages/PrivacyPolicy'
+import Profile from  './pages/Profile'
+import Schools from  './pages/Schools'
+import Settings from  './pages/Settings'
+import Support from  './pages/Support'
+import Universities from  './pages/Universities'
+import Organisations from './pages/Organisations'
 
 // importing components
 import NavBar from './components/NavBarMain'
 import Footer from './components/FooterMain'
+import Universities from './pages/Universities'
 
 
 const MainComponent = () => {
   // creating component variable
   let component;
+  // creating nav variable
+  let nav
 
   // switch statement to call components
   switch(window.location.pathname) {
@@ -50,6 +66,45 @@ const MainComponent = () => {
     break;
 
     case "/signup": component = <SignUp/>
+    break;
+
+    case "/companies": component = <Companies />
+    break;
+
+    case "/docs": component = <Documentation />
+    break;
+
+    case "/instruct": component = <Instructors />
+    break;
+
+    case "/interviews": component = <InterViews />
+    break;
+
+    case "/membership": component = <Membership />
+    break;
+
+    case "/onlinetest": component = <OnlineTest />
+    break;
+
+    case "/privacy": component = <PrivacyPolicy />
+    break;
+
+    case "/profile": component = <Profile />
+    break;
+
+    case "/schools": component = <Schools />
+    break;
+
+    case "/settings": component = <Settings />
+    break;
+
+    case "/support": component = <Support />
+    break;
+
+    case "/uni": component = <Universities />
+    break;
+
+    case "/org": component = <Organisations />
     break;
     default:
       break;

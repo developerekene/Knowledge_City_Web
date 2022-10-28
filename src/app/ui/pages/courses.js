@@ -5,7 +5,6 @@ import { COLORS } from "../../utills/Tools";
 
 // importing from Bootstrap
 import { Image } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import {
   PROANDCOM,
   WRAC,
