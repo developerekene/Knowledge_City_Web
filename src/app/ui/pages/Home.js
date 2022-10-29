@@ -27,24 +27,50 @@ import {
 } from "react-icons/io5";
 
 const Home = () => {
+  const [colorBtn, setColorBtn] = React.useState("#000000");
+
+  function changeColor() {
+    if (colorBtn === "#000000") {
+      setColorBtn("#1976D2");
+    } else {
+      setColorBtn("#000000");
+    }
+  }
 
   return (
     <>
       <div className="home">
         <div className="homeFirstDiv">
-          <div style={{ marginRight: 350, width: 1000, backgroundColor: '#66000000' }}>
+          <div
+            style={{
+              width: "100%",
+              backgroundColor: "rgba(0, 0, 0, 0.5)",
+              height: "100%",
+              alignItems: "center",
+            }}
+          >
             <h1
               style={{
-                fontSize: 60,
-                fontStyle: "italic",
-                fontWeight: "bold",
-                color: COLORS.baseColorSix,
-                marginBottom: 20
+                fontSize: 65,
+                fontWeight: "900",
+                color: COLORS.baseColorTwo,
+                marginBottom: 20,
+                // textAlign: "center",
+                marginTop: 180,
+                marginLeft: 120,
               }}
             >
               {TEXT.homeHeaderText}
             </h1>
-            <p style={{ fontSize: 20, color: "#ffffff", marginBottom: 20 }}>
+            <p
+              style={{
+                fontSize: 22,
+                color: "#ffffff",
+                marginBottom: 20,
+                // textAlign: "center",
+                marginLeft: 120,
+              }}
+            >
               Online learning and market place with 5K+ courses and 10M
               students. Taught by experts to help you acquire new skills.
             </p>
@@ -53,7 +79,10 @@ const Home = () => {
               style={{
                 display: "flex",
                 alignItems: "center",
-                color: COLORS.baseColorSix,
+                color: "yellow",
+                // justifyContent: "center",
+                marginTop: 60,
+                marginLeft: 120,
               }}
             >
               <div
@@ -61,9 +90,14 @@ const Home = () => {
                   display: "flex",
                   alignItems: "center",
                   paddingRight: 20,
+                  justifyContent: "center",
                 }}
               >
-                <p style={{ marginRight: 10 }}>Learn with experts</p>
+                <p
+                  style={{ marginRight: 10, fontWeight: "bold", fontSize: 22 }}
+                >
+                  Learn with experts
+                </p>
                 <IoCheckmarkCircleSharp />
               </div>
 
@@ -75,42 +109,56 @@ const Home = () => {
                     paddingRight: 20,
                   }}
                 >
-                  <p style={{ marginRight: 10 }}>Get Certificate</p>
+                  <p
+                    style={{
+                      marginRight: 10,
+                      fontWeight: "bold",
+                      fontSize: 22,
+                    }}
+                  >
+                    Get Certificate
+                  </p>
                   <IoCheckmarkCircleSharp />
                 </div>
               </div>
 
               <div>
                 <div style={{ display: "flex", alignItems: "center" }}>
-                  <p style={{ marginRight: 10 }}>Get membership</p>
+                  <p
+                    style={{
+                      marginRight: 10,
+                      fontWeight: "bold",
+                      fontSize: 22,
+                    }}
+                  >
+                    Get membership
+                  </p>
                   <IoCheckmarkCircleSharp />
                 </div>
               </div>
             </div>
             <Button
+              onClick={changeColor}
               variant="primary"
               type="link"
               style={{
                 height: 50,
-                width: 150,
-                backgroundColor: COLORS.baseColorSix,
+                width: "30%",
+                backgroundColor: colorBtn,
                 color: COLORS.baseColorTwo,
-                borderColor: COLORS.baseColorSix,
+                outline: 0,
                 marginTop: 50,
                 fontSize: 14,
                 borderRadius: 5,
                 cursor: "pointer",
+                alignSelf: "center",
+                transition: "2s",
+                marginLeft: 120,
               }}
             >
               GET STARTED
             </Button>
           </div>
-          {/* <div>
-            <Image
-              src={require("../../images/jpeg/Effective_CEO.jpg")}
-              style={{ width: 450, height: 420, borderRadius: 20}}
-            />
-          </div> */}
         </div>
 
         <div>
@@ -224,18 +272,20 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div style={{ marginLeft: 70, paddingLeft: 450 }}>
-            <h2 style={{ fontSize: 40 }}>Most Popular Courses</h2>
-            <p style={{ fontSize: 16, marginBottom: 50 }}>
+          <div style={{}}>
+            <h2 style={{ fontSize: 45, marginBottom: 20, textAlign: "center" }}>
+              Most Popular Courses
+            </h2>
+            <p style={{ fontSize: 16, marginBottom: 50, textAlign: "center" }}>
               Choose from hundreds of courses from Specialist organizations
             </p>
           </div>
 
           <div
             style={{
-              marginLeft: 70,
+              marginLeft: 50,
               display: "flex",
-              width: 1200,
+              // width: "100%",
               height: 35,
               backgroundColor: COLORS.baseColorThirteen,
               alignItems: "center",
@@ -246,6 +296,7 @@ const Home = () => {
               paddingBottom: 5,
               marginBottom: 30,
               borderRadius: 5,
+              marginRight: 50,
             }}
           >
             <h6 style={{ color: COLORS.baseColorSix, fontSize: 14 }}>
@@ -279,8 +330,8 @@ const Home = () => {
 
           <div
             style={{
-              marginLeft: 70,
-              marginRight: 55,
+              marginLeft: 50,
+              marginRight: 50,
               display: "flex",
               justifyContent: "space-between",
             }}
@@ -295,7 +346,7 @@ const Home = () => {
                 style={{
                   backgroundColor: COLORS.baseColorTwo,
                   width: 290,
-                  paddingLeft: 15,
+                  // paddingLeft: 15,
                   paddingRight: 15,
                 }}
               >
@@ -623,9 +674,9 @@ const Home = () => {
         <div className="become">
           <div
             style={{
-              width: 1250,
+              // width: 1250,
               height: 200,
-              marginLeft: 70,
+              marginLeft: 50,
               marginRight: 50,
               backgroundColor: COLORS.baseColorSix,
               display: "flex",
@@ -633,11 +684,11 @@ const Home = () => {
               paddingLeft: 70,
               paddingRight: 70,
               borderRadius: 5,
-              marginBottom: 10,
+              marginBottom: 100,
             }}
           >
             <div style={{ width: 700, marginRight: 200 }}>
-              <h1 style={{ color: COLORS.baseColorTwo }}>
+              <h1 style={{ color: COLORS.baseColorTwo, marginBottom: 20 }}>
                 Become an Instructor!
               </h1>
               <p style={{ color: COLORS.baseColorTwo, fontSize: 16 }}>
@@ -667,29 +718,30 @@ const Home = () => {
 
           <div
             style={{
-              marginLeft: 70,
-              paddingLeft: 450,
+              // marginLeft: 70,
+              // paddingLeft: 450,
               alignItems: "center",
               marginBottom: 40,
             }}
           >
-            <h2 style={{ fontSize: 40 }}>Our Trending Courses</h2>
-            <p style={{ fontSize: 18, marginLeft: 50 }}>
+            <h2 style={{ fontSize: 40, textAlign: "center", marginBottom: 20 }}>
+              Our Trending Courses
+            </h2>
+            <p style={{ fontSize: 18, textAlign: "center", marginBottom: 50 }}>
               Check out most Courses in the market
             </p>
           </div>
 
           <div
             style={{
-              marginLeft: 70,
-              marginRight: 55,
+              marginLeft: 50,
+              marginRight: 50,
               display: "flex",
-              width: 1250,
+              // width: 1250,
               marginBottom: 100,
             }}
           >
-            <div style={{ marginRight: 70, marginLeft: 15, width: 700 }}>
-              
+            <div style={{ width: 700 }}>
               <Image
                 src={require("../../images/jpeg/about-img.jpg")}
                 style={{ width: 400, height: 250 }}
@@ -702,95 +754,62 @@ const Home = () => {
                   paddingRight: 15,
                 }}
               >
+                <h4 style={{ color: COLORS.baseColorSix, marginTop: 15 }}>
+                  The Complete Digital Marketing Course - 8 Course in one
+                </h4>
                 <div
                   style={{
                     display: "flex",
                     alignItems: "center",
+                    width: 360,
+                    marginTop: 20,
                     justifyContent: "space-between",
                   }}
                 >
-                  <div style={{ display: "flex", marginRight: 120 }}>
-                    <Button
-                      variant="primary"
-                      type="link"
-                      style={{
-                        height: 35,
-                        width: 80,
-                        borderColor: COLORS.baseColorSix,
-                        marginRight: 10,
-                        color: COLORS.baseColorTwo,
-                        backgroundColor: COLORS.baseColorSix,
-                        fontSize: 14,
-                        fontWeight: "bold",
-                        borderRadius: 5,
-                      }}
-                    >
-                      Design
-                    </Button>
-
-                    <Button
-                      variant="primary"
-                      type="link"
-                      style={{
-                        height: 35,
-                        width: 90,
-                        borderColor: COLORS.baseColorSix,
-                        color: COLORS.baseColorTwo,
-                        backgroundColor: COLORS.baseColorSix,
-                        fontSize: 14,
-                        fontWeight: "bold",
-                        borderRadius: 5,
-                      }}
-                    >
-                      Beginner
-                    </Button>
+                  <div style={{ display: "flex", alignItems: "center" }}>
+                    {/* <IoStar /> */}
+                    <p style={{ marginRight: 10 }}>$ 0</p>
+                    <h5>6,500 Students</h5>
                   </div>
-                  <IoBookmarkOutline style={{}} />
+                  <div style={{display: 'flex', alignItems: 'center'}}>
+                    <div style={{ display: "flex", alignItems: "center" }}>
+                      <IoTimeOutline />
+                      <h5 style={{ marginRight: 10, marginLeft: 10 }}>6h 56m</h5>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        // paddingRight: 20,
+                      }}
+                    >
+                      <IoApps />
+                      <h5 style={{ marginLeft: 5 }}>82 lectures</h5>
+                    </div>
+                  </div>
                 </div>
-                <h4 style={{ color: COLORS.baseColorSix }}>
-                  The Complete Digital Marketing Course - 8 Course in one
-                </h4>
+
                 <div
-                  style={{ display: "flex", alignItems: "center", width: 360 }}
-                >
-                  <div style={{ display: "flex", alignItems: "center" }}>
-                    <p style={{ marginRight: 5 }}>4.5</p>
-                    <IoStar />
-                    <h5 style={{ marginLeft: 10, marginRight: 170 }}>(6500)</h5>
-                  </div>
-                  <div style={{ display: "flex", alignItems: "center" }}>
-                    <h5>6500 (Student)</h5>
-                  </div>
-                </div>
-
-                <div style={{ display: "flex", alignItems: "center" }}>
-                  <div style={{ display: "flex", alignItems: "center" }}>
-                    <IoTimeOutline />
-                    <h5 style={{ marginLeft: 10, marginRight: 15 }}>6h 56m</h5>
-                  </div>
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      paddingRight: 20,
-                    }}
-                  >
-                    <IoApps />
-                    <h5 style={{ marginLeft: 5 }}>82 lectures</h5>
-                  </div>
-                </div>
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    marginTop: 12,
+                    justifyContent: "space-between",
+                  }}
+                ></div>
                 <div></div>
                 <div
                   style={{
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "space-between",
+                    marginTop: 10,
                   }}
                 >
                   <div style={{ display: "flex", alignItems: "center" }}>
                     <Image
                       src={require("../../images/jpeg/man_on_suit.jpg")}
-                      style={{ width: 60, height: 60 }}
+                      style={{ width: 60, height: 60, borderRadius: 10 }}
                     />
                     <h5
                       style={{ marginRight: 60, marginLeft: 10, fontSize: 16 }}
@@ -812,7 +831,8 @@ const Home = () => {
                       borderRadius: 5,
                     }}
                   >
-                    <IoCart /> Add to Cart
+                    {/* <IoCart /> */}
+                     Take Course
                   </Button>
                 </div>
               </div>
@@ -1048,8 +1068,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-           </div>
-           <div
+          </div>
+          <div
             className="lastOne"
             style={{
               marginLeft: 80,
@@ -1105,7 +1125,15 @@ const Home = () => {
                   marginLeft: 275,
                 }}
               >
-                <h4 style={{ marginBottom: 10, marginLeft: 85, color: COLORS.baseColorTwo }}>4.5/5.0</h4>
+                <h4
+                  style={{
+                    marginBottom: 10,
+                    marginLeft: 85,
+                    color: COLORS.baseColorTwo,
+                  }}
+                >
+                  4.5/5.0
+                </h4>
                 <div style={{ marginLeft: 65, marginBottom: 10 }}>
                   <IoStar />
                   <IoStar />
@@ -1113,7 +1141,9 @@ const Home = () => {
                   <IoStar />
                   <IoStarHalfOutline />
                 </div>
-                <p style={{ marginLeft: 40, color: COLORS.baseColorTwo}}>Based on 3265 ratings</p>
+                <p style={{ marginLeft: 40, color: COLORS.baseColorTwo }}>
+                  Based on 3265 ratings
+                </p>
               </div>
             </div>
 
@@ -1236,7 +1266,6 @@ const Home = () => {
                 width: 500,
                 marginTop: 160,
                 paddingTop: 20,
-                
               }}
             >
               <h1 style={{ marginBottom: 20 }}>
