@@ -11,6 +11,10 @@ import ForgotPassword from './pages/ForgotPassword'
 import GetStarted from './pages/GetStarted'
 import Login from './pages/Login'
 import SignUp from './pages/SignUp'
+import Settings from './pages/Settings'
+import Membership from './pages/Membership'
+import Profile from './pages/Profile'
+import Instructors from './pages/Instructors'
 
 // importing components
 import NavBar from './components/NavBarMain'
@@ -53,6 +57,18 @@ const MainComponent = () => {
     break;
     default:
       break;
+
+    case "/settings": component = <Settings/>
+    break;
+    
+    case "/membership": component = <Membership/>
+    break;
+
+    case "/profile": component = <Profile/>
+    break;
+
+    case "/instructors": component = <Instructors/>
+    break;
   }
   return (
     <>

@@ -126,10 +126,10 @@ const NavBarLogo = () => {
               <h4 className="dropdown">
                 Accounts <IoChevronDownSharp />
                 <div class="dropdown-content">
-                  <a href="/getstarted">Membership</a>
-                  <a href="/courses">Profile</a>
-                  <a href="/books">Delete Profile</a>
-                  <a href="/articles">Settings</a>
+                  <a href="/membership">Membership</a>
+                  <a href="/profile">Profile</a>
+                  <a href="/deleteprofile">Delete Profile</a>
+                  <a href="/settings">Settings</a>
                 </div>
               </h4>
             </a>
@@ -146,7 +146,7 @@ const NavBarLogo = () => {
               <h4 className="dropdown">
                 More <IoChevronDownSharp />
                 <div class="dropdown-content">
-                  <a href="#">Instructors</a>
+                  <a href="/instructors">Instructors</a>
                   <a href="#">Prepare for Interviews</a>
                   <a href="#">Online Assessments</a>
                   <a href="#">Test / Exams</a>
