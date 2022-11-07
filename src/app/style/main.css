@@ -1842,3 +1842,188 @@
     margin-right: 20px;
     font-size: 16px;
 }
+
+
+/* LOGIN STYLES START HERE */
+
+.loginPage{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.loginLeftDiv{
+    background-color: cornflowerblue;
+    width: 800px;
+    padding-top: 30px;
+}
+
+.loginLeftDivHeading{
+    text-align: center;
+}
+
+.loginLeftDivParagraph{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.loginSignupImage{
+    margin-top: 60px;
+    width: 480px;
+    margin-left: 160px;
+    margin-bottom:30px;
+}
+
+.images4KPlusStudents{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+.joinedStudentsImagesDiv{
+    margin-right: 10px;
+}
+
+.joinedStudents{
+    width: 40px;
+    height: 40px;
+    border-radius: 1000px;
+}
+
+.loginRightDiv{
+    margin-top: 30px;
+    padding-left: 80px;
+    
+}
+
+.loginRightDivHeading{
+    text-align: center;
+}
+
+.loginRightDivParagraph{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.formLoginEmailAddressHeading{
+    margin-bottom: 5px;
+    margin-left: 55px;
+}
+
+.loginEmailAddressFormControl{
+    width: 460px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border-width: thin;
+    margin-left: 55px;
+    padding-left: 10px;
+}
+
+.formLoginPasswordHeading{
+    margin-bottom: 5px;
+    margin-left: 55px;
+}
+
+.loginPasswordFormControl{
+    width: 460px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-width: thin;
+    margin-left: 55px;
+    padding-left: 10px;
+}
+
+.yourPasswordMust{
+    margin-left: 60px;
+    margin-bottom: 35px;
+}
+
+.loginCheckboxAndForgotPassword{
+    display: flex;
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+
+.checkboxRememberMe{
+    margin-right: 220px;
+    align-items: center;
+}
+
+.loginLoginBtn{
+    width: 460px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #1976D2;
+    border-radius: 5px;
+    border-color: #1976D2;
+    margin-left: 60px;
+}
+
+.textOr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.loginWithBtnDiv{
+    display: flex;
+    margin-left: 55px;
+}
+
+.loginWithGoogleBtn{
+    width: 220px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #1976D2;
+    border-radius: 5px;
+    border-color: #1976D2;
+    margin-right: 30px;
+}
+
+.loginWithFacebookBtn{
+    width: 220px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #1976D2;
+    border-radius: 5px;
+    border-color: #1976D2;
+    margin-bottom: 30px;
+}
+
+.dontHaveAccount{
+    text-align: center;
+}
+
+                  /* SIGNUP STYLES START HERE */
+
+ .signupPage{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 80px;
+ }     
+ 
+ .formSignupConfirmPasswordHeading{
+    margin-bottom: 5px;
+    margin-left: 55px;
+    margin-top: 30px;
+ }
+
+ .signupConfirmPasswordFormControl{
+    width: 460px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-width: thin;
+    margin-left: 55px;
+    padding-left: 10px;
+ }
+
+ .checkboxTermsOfSERvice{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 55px;
+ }
