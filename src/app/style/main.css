@@ -1380,3 +1380,647 @@
     margin-top: 15px;
     font-size: 18px;
 }
+
+
+                              /* SETTINGS STYLES START HERE */
+
+.settingsPage{
+    margin-bottom: 60px;
+}
+
+.settingsWholeBodyDiv{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.settingsTopDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.profileAndDetails{
+    display: flex;
+}
+
+.settingsImage{
+    width: 90px;
+    height: 90px;
+    border-radius: 1000px;
+    margin-right: 30px;
+}
+
+.settingsProfileDetails{
+    margin-top: 30px;
+}
+
+.SettingsProfileName{
+    align-items: center;
+}
+
+.settingsProfileH5{
+    display: flex;
+    align-items: center;
+}
+
+.settingsProfileH5{
+    margin-top: 10px;
+}
+
+.settingsStarRating{
+    align-items: center;
+    margin-right: 15px;
+}
+
+.settingsEnrolled{
+    align-items: center;
+    margin-right: 15px;
+}
+
+.settingsCourses{
+    align-items: center;
+}
+
+.settingscreateACourseBtnDiv{
+    margin-top: 30px;
+}
+
+.createACourseBtn{
+    width: 160px;
+    height: 45px;
+    color: #ffffff;
+    background-color: #1976D2;
+    font-size: 16px;
+    border-color: #1976D2;
+    border-radius: 5px;
+}
+
+.settingsSecondDiv{
+    display: flex;
+}
+
+.settingsSecondDivLeft{
+    background-color: #000000;
+    width: 380px;
+    height: 610px;
+    padding-left: 40px;
+    padding-top: 25px;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+.individualDiv{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.dashboardAndOthers{
+    margin-left: 10px
+}
+
+.signOutDiv{
+    display: flex;
+    align-items: center;
+    color: crimson;
+}
+
+.signOut{
+    margin-left: 10px;
+}
+
+.settingsSecondDivRight{
+    border-style: solid;
+    border-width: thin;
+    border-color: #000000;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 780px;
+    height: 500px;
+    padding-top: 15px;
+}
+
+.settingsHeadingDiv{
+    border-style: solid;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-width: thin;
+    border-color: #000000;
+    color: #000000;
+    background-color: #ffffff;
+    padding-bottom: 15px;
+}
+
+.settingsHeading{
+    margin-left: 25px;
+}
+
+.profileSettingsHeadingDiv{
+    padding-top: 10px;
+    border-style: solid;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-width: thin;
+    border-color: #000000;
+    color: #000000;
+}
+
+.profileSettingsHeading{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.notificationsSettingsDiv{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+
+                     /* INSTRUCTORS PAGE STYLE */
+
+.instructorsPage{
+    margin-bottom: 100px;
+}
+
+.instructorsFirstDiv{
+    background-image: url(../images/jpeg/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 400px;
+    align-items: center;
+    padding-top: 130px;
+}
+
+.instructorsBodyDiv{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.instructorsBodyHeading{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.instructorsBodyHeadingParagraph{
+    margin-left: 310px;
+    margin-right: 280px;
+    font-size: 18px;
+}
+
+.instructorsBodyDivOne{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.createAccountColumnDiv{
+    width: 340px;
+}
+
+.createAccountImage{
+    width: 255px;
+    height: 180px;
+    margin-left: 45px;
+}
+
+.createAccountHeading{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.addYourCourseColumnDiv{
+    width: 340px;
+}
+
+.addYourCourseImage{
+    width: 250px;
+    height: 180px;
+    margin-left: 45px;
+}
+
+.addYourCourseHeading{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.startEarningMoneyColumnDiv{
+    width: 340px;
+}
+
+.startEarningMoneyImage{
+    width: 250px;
+    height: 180px;
+    margin-left: 45px;
+}
+
+.startEarningMoneyHeading{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.instructorsBodyDivTwo{
+    margin-top: 100px;
+    width: 1250px;
+    height: 230px;
+    background-color: #fed5a4;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.theFourColumns{
+    margin-top: 60px;
+}
+
+.theFourColumnsNumbers{
+    color: orangered;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.theFourColumnsParagraphs{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.instructorsBodyDivThree{
+    margin-top: 70px;
+    display: flex;
+}
+
+.fillForm{
+    background-color: #ffffff;
+    width: 530px;
+    height: 450px;
+    margin-right: 5px;
+}
+
+.pleaseFillFormHeading{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.nameEmailHeading{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.formNameHeading{
+    margin-right: 200px;
+}
+
+.nameEmailFormControlDiv{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 35px;
+}
+
+.instructorsNameFormControl{
+    width: 225px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+.instructorsEmailFormControl{
+    width: 225px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+.formPhoneNumberHeading{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.instructorsPhoneNumberFormControl{
+    width: 460px;
+    height: 40px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+.formAddSummaryHeading{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.instructorsAddSummaryFormControl{
+    width: 460px;
+    height: 80px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+.submitFormBtn{
+    width: 140px;
+    height: 50px;
+    margin-left: 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #1976D2;
+    border-color: #1976D2;
+    font-size: 18px;
+}
+
+.howToBecomeAnInstructorHeading{
+    margin-bottom: 20px;
+}
+
+.becomeInstructorButtonsDiv{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.becomeAnInstructorBtn{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #1976D2;
+    border-color: #1976D2;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.instructorRoleBtn{
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #1976D2;
+    border-color: #1976D2;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.startWithCourseBtn{
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #1976D2;
+    border-color: #1976D2;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.becomeAnInstructorHeading{
+    margin-bottom: 15px;
+}
+
+.becomeAnInstructorFirstParagraph{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.becomeAnInstructorSecondParagraph{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.becomeAnInstructorThirdParagraph{
+    font-weight: 500;
+}
+
+.instructorsBodyLastDiv{
+    margin-top: 80px;
+    width: 1220px;
+    height: 230px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.instructorsBodyLastDivLeft{
+    color: #ffffff;
+    width: 500px;
+    margin-left: 100px;
+    margin-right: 320px;
+}
+
+.instructorsBodyLastDivLeftHeading{
+    margin-bottom: 10px;
+}
+
+.instructorsBodyLastDivLeftParagraph{
+    font-weight: 500;
+}
+
+.startTeachingTodayBtn{
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #1976D2;
+    border-color: #1976D2;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+
+/* LOGIN STYLES START HERE */
+
+.loginPage{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.loginLeftDiv{
+    background-color: cornflowerblue;
+    width: 800px;
+    padding-top: 30px;
+}
+
+.loginLeftDivHeading{
+    text-align: center;
+}
+
+.loginLeftDivParagraph{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.loginSignupImage{
+    margin-top: 60px;
+    width: 480px;
+    margin-left: 160px;
+    margin-bottom:30px;
+}
+
+.images4KPlusStudents{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+.joinedStudentsImagesDiv{
+    margin-right: 10px;
+}
+
+.joinedStudents{
+    width: 40px;
+    height: 40px;
+    border-radius: 1000px;
+}
+
+.loginRightDiv{
+    margin-top: 30px;
+    padding-left: 80px;
+    
+}
+
+.loginRightDivHeading{
+    text-align: center;
+}
+
+.loginRightDivParagraph{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.formLoginEmailAddressHeading{
+    margin-bottom: 5px;
+    margin-left: 55px;
+}
+
+.loginEmailAddressFormControl{
+    width: 460px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border-width: thin;
+    margin-left: 55px;
+    padding-left: 10px;
+}
+
+.formLoginPasswordHeading{
+    margin-bottom: 5px;
+    margin-left: 55px;
+}
+
+.loginPasswordFormControl{
+    width: 460px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-width: thin;
+    margin-left: 55px;
+    padding-left: 10px;
+}
+
+.yourPasswordMust{
+    margin-left: 60px;
+    margin-bottom: 35px;
+}
+
+.loginCheckboxAndForgotPassword{
+    display: flex;
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+
+.checkboxRememberMe{
+    margin-right: 220px;
+    align-items: center;
+}
+
+.loginLoginBtn{
+    width: 460px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #1976D2;
+    border-radius: 5px;
+    border-color: #1976D2;
+    margin-left: 60px;
+}
+
+.textOr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.loginWithBtnDiv{
+    display: flex;
+    margin-left: 55px;
+}
+
+.loginWithGoogleBtn{
+    width: 220px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #1976D2;
+    border-radius: 5px;
+    border-color: #1976D2;
+    margin-right: 30px;
+}
+
+.loginWithFacebookBtn{
+    width: 220px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #1976D2;
+    border-radius: 5px;
+    border-color: #1976D2;
+    margin-bottom: 30px;
+}
+
+.dontHaveAccount{
+    text-align: center;
+}
+
+                  /* SIGNUP STYLES START HERE */
+
+ .signupPage{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 80px;
+ }     
+ 
+ .formSignupConfirmPasswordHeading{
+    margin-bottom: 5px;
+    margin-left: 55px;
+    margin-top: 30px;
+ }
+
+ .signupConfirmPasswordFormControl{
+    width: 460px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-width: thin;
+    margin-left: 55px;
+    padding-left: 10px;
+ }
+
+ .checkboxTermsOfSERvice{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 55px;
+ }

@@ -107,6 +107,18 @@ const MainComponent = () => {
     break;
     default:
       break;
+
+    case "/settings": component = <Settings/>
+    break;
+    
+    case "/membership": component = <Membership/>
+    break;
+
+    case "/profile": component = <Profile/>
+    break;
+
+    case "/instructors": component = <Instructors/>
+    break;
   }
   return (
     <>
