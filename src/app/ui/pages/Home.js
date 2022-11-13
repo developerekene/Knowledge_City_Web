@@ -1072,12 +1072,10 @@ const Home = () => {
           <div
             className="lastOne"
             style={{
-              marginLeft: 80,
-              marginRight: 20,
+              
               display: "flex",
-              width: 1400,
             }}
-          >
+            >
             <div>
               <div
                 style={{
